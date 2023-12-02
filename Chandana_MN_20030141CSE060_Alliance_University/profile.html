@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/card.css">
+    <link rel="stylesheet" href="CSS/profile_pic.css">
+    <title>TechLearnHub</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="assets/Images/logo.png" alt="TechLearnHub Logo" height="60">TechLearnHub
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Homepage</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="text-center py-4">
+        <h1 class="display-4">Welcome to Your Profile</h1>
+    </header>
+
+    <section class="container my-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-pic-container text-center">
+                    <img src="assets/Images/img_icon.png" alt="Profile Picture" class="profile-pic img-fluid" id="profilePic">
+                    <span class="edit-icon" onclick="openFileInput()">
+                        <img src="assets/Images/camera.png" alt="Edit Icon">
+                    </span>
+                </div>
+
+                <div id="userDetails" class="text-center mt-3">
+                    <h2 id="usernameDisplay">User Name</h2>
+                    <p id="emailDisplay">Email: user@example.com</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#moreDetailsModal">More Details</button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-deck">
+                    <div class="container">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="assets/Images/leetcode.png">
+                                    <h3>LeetCode</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <p>LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.</p>
+                                        <a href="https://leetcode.com">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="assets/Images/HackerRank.png">
+                                    <h3>HackerRank</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <p>HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!</p>
+                                        <a href="https://www.hackerrank.com">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="assets/Images/codechef.png">
+                                    <h3>CodeChef</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <p>CodeChef is a well-known platform for computer science enthusiasts and competitive programmers. It offers various coding challenges and contests, both local and global, with a wide range of problems and categories.</p>
+                                        <a href="https://www.codechef.com">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="moreDetailsModal" tabindex="-1" role="dialog" aria-labelledby="moreDetailsModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="moreDetailsModalLabel">More Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label for="age">Age:</label>
+                    <input type="text" class="form-control" id="age" name="age">
+
+                    <label for="place">Place:</label>
+                    <input type="text" class="form-control" id="place" name="place">
+
+                    <label for="college">College Name:</label>
+                    <input type="text" class="form-control" id="college" name="college">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="registerUser()">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2023 TechLearnHub. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

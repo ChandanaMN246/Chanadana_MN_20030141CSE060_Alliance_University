@@ -1,0 +1,54 @@
+
+body {
+    padding-top: 56px;
+    margin-bottom: 0;
+    background: radial-gradient(ellipse at center, #ffffff 0%, #C5FFF8 70%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #96EFFF;
+}
+.navbar {
+    padding: 10px;
+    min-height: 50px; 
+}
+
+.navbar-brand img {
+    height: 60px; 
+    margin-right: 10px; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+blockquote {
+    text-align: center;
+    margin: 40px 0;
+}
+
+section.py-4 {
+    background-color: #96EFFF;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0; 
+}
+

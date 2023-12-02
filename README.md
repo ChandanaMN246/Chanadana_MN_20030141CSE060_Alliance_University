@@ -2,7 +2,7 @@
 
 # TechLearnHub
 
-![TechLearnHub Logo](Chanadana_MN_20030141CSE060_Alliance_University/assets/Images/logo.png)
+![TechLearnHub Logo](logo.png)
 
 ## Overview
 

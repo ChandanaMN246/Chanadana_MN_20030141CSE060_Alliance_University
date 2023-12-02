@@ -2,8 +2,6 @@
 
 # TechLearnHub
 
-![TechLearnHub Logo](logo.png)
-
 ## Overview
 
 TechLearnHub is a web application designed to streamline the coding learning experience. The theme revolves around creating a centralized platform that combines various coding practice resources, making it easier for users to access learning materials, enhance their skills, and prepare for interviews without the need to navigate through multiple websites.

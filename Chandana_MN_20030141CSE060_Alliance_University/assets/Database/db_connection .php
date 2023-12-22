@@ -1,5 +1,5 @@
 <?php
-$servername = "chandu";
+$servername = "xyz";
 $username = "root";
 $password = "root";
 $dbname = "TechLearnHub";

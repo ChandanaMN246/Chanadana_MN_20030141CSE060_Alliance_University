@@ -7,9 +7,9 @@
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3306,
+            "port": 3006,
             "driver": "MySQL",
-            "name": "chandu",
+            "name": "xyz",
             "database": "TechLearnHub",
             "username": "root",
             "password": "root"
